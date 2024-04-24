@@ -11,16 +11,10 @@ Ce dépôt contient un playbook Ansible et un fichier d'inventaire YAML pour dé
 
 1. Assurez-vous d'avoir Ansible installé sur votre machine de contrôle.
 2. Clonez ce dépôt sur votre machine locale :
-
-``bash
-git clone https://github.com/MrCelsus/Ansible_quests.git
-``
-
+``git clone https://github.com/MrCelsus/Ansible_quests.git``
 3. Modifiez le fichier inventory.yml pour spécifier les adresses IP ou les noms d'hôtes de vos propres serveurs.
 4. Exécutez le playbook Ansible avec la commande suivante :
-``bash
-ansible-playbook -i inventory.ini installation.yml
-``
+``ansible-playbook -i inventory.ini installation.yml``
 
 ## Personnalisation
 
@@ -29,6 +23,5 @@ Vous pouvez également modifier l'inventaire pour inclure d'autres groupes d'hô
 
 ## Prérequis
 
-Une machine de contrôle Ansible avec Ansible installé.
-Des machines cibles accessibles via SSH et disposant d'un utilisateur avec des privilèges sudo.
-Assurez-vous de bien mettre les adresses IP de VOS machines 
+1. Une machine de contrôle Ansible avec Ansible installé.
+2. Des machines cibles accessibles via SSH et disposant d'un utilisateur avec des privilèges sudo.
