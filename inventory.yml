@@ -1,0 +1,12 @@
+all:
+  children:
+    web_servers:
+      hosts:
+        web1:
+          ansible_host: 192.168.1.101  # Adresse IP du serveur web 1
+        web2:
+          ansible_host: 192.168.1.102  # Adresse IP du serveur web 2
+    db_servers:
+      hosts:
+        db1:
+          ansible_host: 192.168.1.103  # Adresse IP du serveur de base de données 1
