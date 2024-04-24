@@ -4,8 +4,8 @@ Ce dépôt contient un playbook Ansible et un fichier d'inventaire YAML pour dé
 
 ## Contenu du dépôt
 
-- inventory.yml: Ce fichier d'inventaire YAML contient les informations sur les machines à gérer. Il définit deux groupes d'hôtes : "web_servers" pour les serveurs web et "db_servers" pour les serveurs de base de données.
-- playbook.yml: Ce playbook Ansible contient les tâches nécessaires pour installer Nginx sur les serveurs web et MariaDB sur les serveurs de base de données.
+- inventory.ini: Ce fichier d'inventaire YAML contient les informations sur les machines à gérer. Il définit deux groupes d'hôtes : "web_servers" pour les serveurs web et "db_servers" pour les serveurs de base de données.
+- installation.yml: Ce playbook Ansible contient les tâches nécessaires pour installer Nginx sur les serveurs web et MariaDB sur les serveurs de base de données.
 
 ## Utilisation
 
