@@ -1,0 +1,17 @@
+- name: Install Nginx on web servers
+  hosts: web_servers
+  become: yes
+  tasks:
+    - name: Install Nginx
+      package:
+        name: nginx
+        state: present
+
+- name: Install MariaDB on database servers
+  hosts: db_servers
+  become: yes
+  tasks:
+    - name: Install MariaDB Server
+      package:
+        name: mariadb-server
+        state: present
